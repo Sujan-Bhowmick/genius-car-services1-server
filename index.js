@@ -6,7 +6,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 5000;
 const app = express();
 
-// middleware
+// Middleware
 app.use(cors());
 app.use(express.json());
 
@@ -113,5 +113,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('CRUD server is running')
+    console.log('CRUD server is running again')
 })
