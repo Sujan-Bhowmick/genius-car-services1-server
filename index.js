@@ -112,7 +112,7 @@ app.get('/', (req, res) => {
    res.send('Running Genius Server')
 })
 
-app.get('/hero', (req, res) => {
+app.get('/render', (req, res) => {
   res.send('Hero meets heroku')
 })
  
